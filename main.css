@@ -30,9 +30,6 @@ body {
 	line-height: 145%;
 }
 
-code {
-	
-}
 
 h1, h2, h3 {
 	text-align: center;
@@ -51,11 +48,11 @@ h3 {
 }
 
 header {
-	
+	margin-top: 5px;
 }
 
 main {
-
+	margin-top: 15px;
 }
 
 p {
@@ -67,7 +64,7 @@ p:first-of-type { /*removes the indent from the first p element in the webpage*/
 }
 
 #intro {
-
+	margin-bottom: 15px;
 }
 
 #how-does-it-work, #influence, #joke {
