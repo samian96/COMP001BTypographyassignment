@@ -18,7 +18,7 @@ a:link, a:visited {
 a:focus, a:hover {
 	background-color: #ddddff;
 	border-radius: 5px;
-	text-decoration: underline;
+	text-decoration: none;
 	transition-duration: 0.2s;
 	transition-property: background;
 }
@@ -35,7 +35,7 @@ code {
 }
 
 h1, h2, h3 {
-
+	text-align: center;
 }
 
 h1 {
@@ -60,6 +60,10 @@ main {
 
 p {
 	text-indent: 20px;
+}
+
+p:first-of-type { /*removes the indent from the first p element in the webpage*/
+	text-indent: 0;
 }
 
 #intro {
