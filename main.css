@@ -24,6 +24,7 @@ a:focus, a:hover {
 }
 
 body {
+	/*sets font family type, font size, and line height for the entire body section*/
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 15px; 
 	line-height: 145%;
