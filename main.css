@@ -33,18 +33,7 @@ body {
 
 h1, h2, h3 {
 	text-align: center;
-}
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-	
+	margin-bottom: 5px;
 }
 
 header {
@@ -68,5 +57,5 @@ p:first-of-type { /*removes the indent from the first p element in the webpage*/
 }
 
 #how-does-it-work, #influence, #joke {
-
+	margin-top: 15px;
 }
